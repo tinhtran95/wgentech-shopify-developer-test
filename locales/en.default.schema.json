@@ -3416,6 +3416,57 @@
       "presets": {
         "name": "Collapsible content"
       }
+    },
+    "our-team": {
+      "name": "Our team",
+      "settings": {
+        "title": {
+          "label": "Title",
+          "default": "Get Quality Education"
+        },
+        "caption": {
+          "label": "Caption",
+          "default": "Team"
+        },
+        "description": {
+          "label": "Description"
+        },
+        "columns": {
+          "label": "Number of columns"
+        }
+      },
+      "blocks": {
+        "member": {
+          "settings": {
+            "name": {
+              "label": "Member name",
+              "default": "Julian Jameson"
+            },
+            "image": {
+              "label": "Member photo"
+            },
+            "level": {
+              "label": "Member Level",
+              "default": "Profession"
+            },
+            "show_socials": {
+              "label": "Show Socials"
+            },
+            "fb_url": {
+              "label": "Facebook Url"
+            },
+            "ig_url": {
+              "label": "Instagram Url"
+            },
+            "twitter_url": {
+              "label": "Twitter Url"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Our team"
+      }
     }
   }
 }

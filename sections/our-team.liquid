@@ -77,7 +77,7 @@
 
 {% schema %}
 {
-  "name": "Our team",
+  "name": "t:sections.our-team.name",
   "tag": "section",
   "class": "section",
   "disabled_on": {
@@ -87,19 +87,19 @@
     {
       "type": "inline_richtext",
       "id": "title",
-      "default": "Get Quality Education",
-      "label": "Title"
+      "default": "t:sections.our-team.settings.title.default",
+      "label": "t:sections.our-team.settings.title.label"
     },
     {
       "type": "inline_richtext",
       "id": "caption",
-      "default": "Team",
-      "label": "Caption"
+      "default": "t:sections.our-team.settings.caption.default",
+      "label": "t:sections.our-team.settings.caption.label"
     },
     {
       "type": "richtext",
       "id": "description",
-      "label": "Description"
+      "label": "t:sections.our-team.settings.description.label"
     },
     {
       "type": "range",
@@ -108,7 +108,7 @@
       "max": 4,
       "step": 1,
       "default": 4,
-      "label": "Number of columns"
+      "label": "t:sections.our-team.settings.columns.label"
     },
     {
       "type": "range",
@@ -139,42 +139,42 @@
         {
           "type": "inline_richtext",
           "id": "name",
-          "default": "Julian Jameson",
-          "label": "Member name"
+          "default": "t:sections.our-team.blocks.member.settings.name.default",
+          "label": "t:sections.our-team.blocks.member.settings.name.label"
         },
         {
           "type": "image_picker",
           "id": "image",
-          "label": "Member photo"
+          "label": "t:sections.our-team.blocks.member.settings.image.label"
         },
         {
           "type": "inline_richtext",
           "id": "level",
-          "label": "Member Level",
-          "default": "Profession"
+          "label": "t:sections.our-team.blocks.member.settings.level.label",
+          "default": "t:sections.our-team.blocks.member.settings.level.default"
         },
         {
           "type": "checkbox",
           "id": "show_socials",
           "default": true,
-          "label": "Show Socials"
+          "label": "t:sections.our-team.blocks.member.settings.show_socials.label"
         },
         {
           "type": "inline_richtext",
           "id": "fb_url",
-          "label": "Facebook Url",
+          "label": "t:sections.our-team.blocks.member.settings.fb_url.label",
           "default": "https://www.facebook.com/"
         },
         {
           "type": "inline_richtext",
           "id": "ig_url",
-          "label": "Instagram Url",
+          "label": "t:sections.our-team.blocks.member.settings.ig_url.label",
           "default": "https://www.instagram.com/"
         },
         {
           "type": "inline_richtext",
           "id": "twitter_url",
-          "label": "Twitter Url",
+          "label": "t:sections.our-team.blocks.member.settings.twitter_url.label",
           "default": "https://twitter.com/"
         }
       ]
@@ -182,7 +182,7 @@
   ],
   "presets": [
     {
-      "name": "Our Team"
+      "name": "t:sections.our-team.presets.name"
     }
   ]
 }
