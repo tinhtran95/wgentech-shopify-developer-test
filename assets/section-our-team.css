@@ -1,0 +1,110 @@
+.our-team .section-title .caption {
+    color: #96BB7C;
+    letter-spacing: 0.2px;
+    font-size: 14px;
+    margin: 0 0 11px;
+}
+
+.our-team .section-title {
+    letter-spacing: 0.1px;
+    margin-bottom: 30px;
+}
+
+.our-team .section-title h3 {
+    margin: 0 0 10px;
+}
+
+.our-team .section-title .description {
+    color: #737373;
+    margin: 0;
+}
+
+.our-team .section-title .description p {
+    margin: 0;
+}
+
+.our-team-wrapper ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.member-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 15px;
+}
+
+@media only screen and (min-width: 992px) {
+    .our-team .section-title {
+        margin-bottom: 48px;
+    }
+
+    .member-list {
+        gap: 30px;
+    }
+
+    .member-list.grid--4-col {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .member-list.grid--3-col {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .member-list.grid--2-col {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .member-list.grid--1-col {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.member-list > li {
+    text-align: center;
+    box-shadow: 0 13px 19px 0 rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.member-list li .name {
+    margin: 0;
+}
+
+.member-list li .level {
+    margin: 9px 0 5px;
+    font-size: 12px;
+    color: #737373;
+}
+
+.member-photo img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    transition: transform var(--duration-long) ease;
+}
+
+.member-list > li:hover .member-photo img {
+    transform: scale(1.03);
+}
+
+.social-lists {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+}
+
+.social-lists li {
+    font-size: 24px;
+}
+
+.member-info {
+    padding: 25px 20px;
+}
+
+.social-lists li a {
+    color: #96BB7C;
+}

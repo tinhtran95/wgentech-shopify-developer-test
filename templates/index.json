@@ -21,7 +21,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
+            "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -41,9 +41,77 @@
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-3",
+        "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "our_team_9NXcm9": {
+      "type": "our-team",
+      "blocks": {
+        "member_xxpJYc": {
+          "type": "member",
+          "settings": {
+            "name": "Julian Jameson",
+            "image": "shopify:\/\/shop_images\/our-team1.jpg",
+            "level": "Profession",
+            "show_socials": true,
+            "fb_url": "https:\/\/www.facebook.com\/",
+            "ig_url": "https:\/\/www.instagram.com\/",
+            "twitter_url": "https:\/\/twitter.com\/"
+          }
+        },
+        "member_6NLTew": {
+          "type": "member",
+          "settings": {
+            "name": "Julian Jameson",
+            "image": "shopify:\/\/shop_images\/our-team2.jpg",
+            "level": "Profession",
+            "show_socials": true,
+            "fb_url": "https:\/\/www.facebook.com\/",
+            "ig_url": "https:\/\/www.instagram.com\/",
+            "twitter_url": "https:\/\/twitter.com\/"
+          }
+        },
+        "member_g6PxmL": {
+          "type": "member",
+          "settings": {
+            "name": "Julian Jameson",
+            "image": "shopify:\/\/shop_images\/our-team3.jpg",
+            "level": "Profession",
+            "show_socials": true,
+            "fb_url": "https:\/\/www.facebook.com\/",
+            "ig_url": "https:\/\/www.instagram.com\/",
+            "twitter_url": "https:\/\/twitter.com\/"
+          }
+        },
+        "member_6kAyDh": {
+          "type": "member",
+          "settings": {
+            "name": "Julian Jameson",
+            "image": "shopify:\/\/shop_images\/our-team4.jpg",
+            "level": "Profession",
+            "show_socials": true,
+            "fb_url": "https:\/\/www.facebook.com\/",
+            "ig_url": "https:\/\/www.instagram.com\/",
+            "twitter_url": "https:\/\/twitter.com\/"
+          }
+        }
+      },
+      "block_order": [
+        "member_xxpJYc",
+        "member_6NLTew",
+        "member_g6PxmL",
+        "member_6kAyDh"
+      ],
+      "settings": {
+        "title": "Get Quality Education",
+        "caption": "Team",
+        "description": "<p>Problems trying to resolve the conflict between<\/p><p>the two major realms of Classical physics: Newtonian mechanics<\/p>",
+        "columns": 4,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "rich_text": {
@@ -68,6 +136,8 @@
         "text"
       ],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "scheme-1",
         "full_width": true,
         "padding_top": 40,
@@ -79,17 +149,25 @@
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
         "collection": "all",
         "products_to_show": 8,
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
+        "full_width": false,
         "show_view_all": false,
-        "swipe_on_mobile": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
         "image_ratio": "adapt",
+        "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
+        "quick_add": "none",
         "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 28,
         "padding_bottom": 36
       }
@@ -127,6 +205,7 @@
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
         "color_scheme": "scheme-1",
         "padding_top": 36,
         "padding_bottom": 36
@@ -136,8 +215,9 @@
       "type": "video",
       "settings": {
         "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
         "color_scheme": "scheme-1",
@@ -191,9 +271,9 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false,
         "color_scheme": "scheme-1",
         "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -201,6 +281,7 @@
   },
   "order": [
     "image_banner",
+    "our_team_9NXcm9",
     "rich_text",
     "featured_collection",
     "collage",
